@@ -46,8 +46,18 @@ hr {
     margin-top: 25%;
 }
 
-.flex_container {
-    background-color: gray;
-    width; 50%;
-    height: 200px;
-}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width: 4px;
+    border-color: gray;
+  }
+  
+  .flex-container > div {
+    width: 100px;
+    margin: 10px;
+    text-align: left;
+    line-height: 14px;
+    font-size: 12px;
+  }

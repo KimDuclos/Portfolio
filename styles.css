@@ -1,0 +1,44 @@
+body {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+
+.titleCard {
+    font-family: Arial, Helvetica, sans-serif;    
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 15%;
+}
+
+.name {
+    font-size: 92px;
+    font-family: 'Righteous', cursive;
+}
+
+.title {
+    font-size: 72px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    background-color: white;
+    border-color: white;
+    width: 50%;
+    height: 10px;
+}
+
+.contact {
+    font-size: 24px;
+    border-color: white;
+    border-width: 2px;
+}
+
+.infoBox {
+    margin-top: 75%;
+    background-color: white;
+    height: 900px;
+    width: 100%;
+}

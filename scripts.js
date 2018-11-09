@@ -1,10 +1,5 @@
-
-$(document).ready(function() {
-    $(window).scroll(function() {
-      if ($(this).scrollTop() > 0) {
-        $('.titleCard').css('opacity', 0.4);
-      } else {
-        $('.titleCard').css('opacity', 1);
-      }
+$(document).ready(function(){
+    $(window).scroll(function(){
+        $(".titleCard").css("opacity", 1 - $(window).scrollTop() / ($('.titleCard').height() / 2));
     });
-  });
+});

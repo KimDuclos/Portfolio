@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"><script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="scripts.js"></script> 
 
@@ -18,10 +18,10 @@
         <span class="name">Kimberly Duclos</span><br>
         <span class="title">Developer + Designer</span>
         <hr>        
-        <div class="contact">Contact Me</div>
+        <a href="#main"><i class="fas fa-angle-double-down fa-5x"></i></a>
     </div>
 
-        <div class="fadeIn"> <!--will fade in the nav bar and infobox-->
+        <div class="fadeIn" id="main"> <!--will fade in the nav bar and infobox-->
                 <div>
                         <nav>
                                 <a href="#">Home</a>
@@ -31,7 +31,7 @@
                         </nav>
                 </div>
                 <div class="infoBox"> <!--to contain project image links-->
-                        <div class="flex-container">
+                        <div class="flex-container" id="flexOpacity">
                                 <div>
                                         <h1>IMAGE</h1>
                                         <figcaption>This is an image.</figcaption>
